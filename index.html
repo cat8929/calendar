@@ -6,12 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FullCalendar</title>
     <style>
+      /* 中央寄せと最大幅の設定 */
       #app {
         max-width: 1200px;
         margin: 2rem auto;
       }
+
+      /* 日曜日のヘッダーと日付を赤色にする */
+      .fc-day-sun .fc-col-header-cell-cushion,
+      .fc-day-sun .fc-daygrid-day-number {
+        color: red;
+      }
+
+      /* 土曜日のヘッダーと日付を青色にする */
+      .fc-day-sat .fc-col-header-cell-cushion,
+      .fc-day-sat .fc-daygrid-day-number {
+        color: blue;
+      }
     </style>
-    <script type="module" crossorigin src="./assets/index-65ojyq9f.js"></script>
+    <script type="module" crossorigin src="./assets/index-DkwJFffm.js"></script>
     <link rel="stylesheet" crossorigin href="./assets/index-Bx0YbOyG.css" />
   </head>
   <body>
