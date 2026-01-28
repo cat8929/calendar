@@ -38,6 +38,6 @@
 | fullcalendar/timegrid            | 6.1.20     |
 | fullcalendar/vue3                | 6.1.20     |
 
-package.json を参照してください
+ソースリポジトリ：https://github.com/cat8929/vue-cal
 
 <p align="right">(<a href="#top">トップへ</a>)</p>
